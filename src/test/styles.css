@@ -1,0 +1,46 @@
+.dashboardPosts .MuiPaper-root{
+    height: 25em;
+    overflow: auto;
+}
+
+.dashboardPosts{
+    border: 1px solid #aaaaaa45;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    border-radius: 10px;
+}
+.fetchingPosts{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 15em;
+}
+.headName{
+    color: steelblue;
+    text-align: center;
+    padding: 0 0 1em;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 1.5em;
+    position: relative;
+}
+.editIcon{
+    cursor: pointer;
+}
+.inputBox{
+    margin: 10px 0;
+}
+.addTaskbtn{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    top: 0em;
+    font-size: 0.5em;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 0.2em;
+    cursor: pointer;
+}
